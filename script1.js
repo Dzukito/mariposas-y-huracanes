@@ -169,7 +169,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      }
     //----------------------------------------------------------------
  //----------------------------------------------------------
-     else if (clickCount === 3) {
+     else if (clickCount === 4) {
        storyParagraph.opacity=0;
        window.location.href = "convergencia.html";
       

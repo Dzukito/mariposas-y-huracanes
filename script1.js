@@ -1,0 +1,200 @@
+window.onload = function() {
+  var storyImage = document.getElementById("story-image");
+  var storyParagraph = document.getElementById("story-paragraph");
+  var changeStoryButton = document.getElementById("change-story-button");
+  var noSaltar = document.getElementById("noSaltar");
+  var audioPlayer = document.getElementById("audio-player");
+  var audioFiumba = document.getElementById("fiumba");
+    var audioLluvia = document.getElementById("lluvia");
+   var audioTos = document.getElementById("tos");
+  var audioArma = document.getElementById("arma");
+  var audioFuego = document.getElementById("fuego");
+  
+  // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
+  var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      storyImage.src = imageUrl;
+  
+    setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-12-5.gif";
+  storyImage.src = imageUrl;
+                            fadeIn(storyParagraph, story1);
+ changeStoryButton.style.display = "inline";                       
+                              
+  }, 2000);
+  
+  //---------------------------------Muerte
+  
+var audioContainerMuerte = document.getElementById("audioContainerMuerte");
+  
+  
+  //.........................................
+
+
+
+  // Definir la historia
+  var story1 = "Javier Deques quiso que la tierra lo tragara, pero finalmente sucumbió. No era bueno para manejar los nervios. Esa tarde se fracturó el tobillo, efectivamente eso de los retos no era lo suyo. El lado bueno es que Marta se ofreció a cuidarlo durante el resto del verano y atenderlo en el hospital.";
+  var story2 = "La relación entre ambos perduró unos cuantos años. Eran una pareja excéntrica dadas las facultades extraordinarias que tenía cada uno. Javier le contaba en cada cena las teorías sobre agujeros negros que no le dejaban dormir y la idea loca de una máquina para crear uno que les permitiera viajar a través del Universo. Marta, enamorada de su lucidez, le complementaba cada sermón delirante con sus estudios en física de partículas y su pasión por las pequeñas cosas de la vida. En cada cita, ella le regalaba un origami dedicado y firmado para él. Se separaron cinco años después de que Javier llevara su idea de la maquina demasiado lejos, obsesionándose con ella sin tiempo para nadie más.";
+   var story3 =  "El incendio consumió gran parte de la Academia, no solo del laboratorio de Javier. El fuego trepo plantas arriba y arrasó con los trabajos de cada uno de los investigadores. Marta Iridio trabajaba en el piso tres. El trabajo de su vida se vio consumido en cenizas por aquel incidente. Quedó sin empleo y con algunas quemaduras por no poder huir a tiempo del lugar. ";
+   var story4 =  "Marta Iridio llevaba dos semanas casi sin comer. Debía hacer algo o moriría en la pobreza. Esa misma noche se convenció que se trataba de supervivencia. Nadie sabe de dónde sacó la pistola. Se tapó la cara, se apretó el estómago, y se dirigió a la calle San Martin de madrugada a conseguir algo de dinero para no morir.";
+ 
+  changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+  
+  
+    glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Avanzar tiempo -';
+    changeStoryButton.disabled = false;
+      }, 5000);
+      
+
+  
+
+  var clickCount = 0;
+  var glitchTimeout;
+
+  // Cambiar de historia al hacer clic en el botón
+  function changeStory() {
+    clickCount++;
+   
+    //----------------------------  L-------------------------------
+    if (clickCount === 1) {
+      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      storyImage.src = imageUrl;
+    
+      changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+    
+     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-50-6.gif";
+  storyImage.src = imageUrl;
+                            fadeIn(storyParagraph, story2);
+                            audioFuego.play();
+   
+                              
+  }, 2000);
+       
+    
+    glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Avanzar más -';
+    changeStoryButton.disabled = false;
+      }, 15000);
+      
+    }
+    //----------------------------LLEGA AL JURASICO-------------------------------------
+   else if (clickCount === 2) {
+     audioFiumba.play();
+     audioLluvia.play();
+    audioPlayer.pause();
+     
+       
+      setTimeout(function() {  
+       audioArma.play();
+                              
+  }, 6000);
+     
+      // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
+       changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     
+    storyParagraph.opacity=0;
+      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+  storyImage.src = imageUrl;
+     
+       setTimeout(function() { 
+         imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-53-49.gif";
+  storyImage.src = imageUrl;
+                              fadeIn(storyParagraph, story3);
+                              
+  }, 2000);
+     
+     changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+   
+    
+       glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Ir a la noche -';
+    changeStoryButton.disabled = false;
+      }, 15000);
+       
+    
+  }
+    //----------------------------------------------------------
+     else if (clickCount === 3) {
+       storyParagraph.opacity=0;
+         
+    
+      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+  storyImage.src = imageUrl;
+     
+       setTimeout(function() { 
+         imageUrl="https://s12.gifyu.com/images/MartaVaga.gif";
+  storyImage.src = imageUrl;
+                              fadeIn(storyParagraph, story4);
+                              
+  }, 2000);
+       
+      // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
+    
+       
+      changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+       
+        
+   glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p>';
+    changeStoryButton.disabled = false;
+      }, 15000);
+       
+      
+       
+     }
+    //----------------------------------------------------------------
+
+  else{
+  
+  }
+}
+
+
+  changeStoryButton.addEventListener("click", changeStory);
+   noSaltar.addEventListener("click", noSaltar);
+
+  // Función para animar el fade in
+  function fadeIn(element, text) {
+    element.style.opacity = 0;
+    element.innerHTML = text;
+
+    var opacity = 0;
+    var interval = setInterval(function() {
+      if (opacity < 1) {
+        opacity += 0.1;
+        element.style.opacity = opacity;
+      } else {
+        clearInterval(interval);
+      }
+    }, 100);
+  }
+
+  storyParagraph.style.fontFamily = "Arial, Montserrat";
+};

@@ -165,12 +165,17 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
           changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p>';
     changeStoryButton.disabled = false;
       }, 15000);
-       
       
-       
      }
     //----------------------------------------------------------------
-
+ //----------------------------------------------------------
+     else if (clickCount === 3) {
+       storyParagraph.opacity=0;
+       window.location.href = "convergencia.html";
+      
+     }
+    
+     
   else{
   
   }

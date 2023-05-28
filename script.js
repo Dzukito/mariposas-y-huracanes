@@ -339,12 +339,12 @@ window.onload = function() {
   else{}
 }
 
-     function noSaltar() {
+     function noSalto() {
        window.location.href = "rama2.html";
      };
 
   changeStoryButton.addEventListener("click", changeStory);
-   noSaltar.addEventListener("click", noSaltar);
+   noSaltar.addEventListener("click", noSalto);
 
   // Función para animar el fade in
   function fadeIn(element, text) {

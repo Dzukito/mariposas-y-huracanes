@@ -154,7 +154,10 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      changeStoryButton.classList.remove("glitch-effect");
        
         
-   
+   setTimeout(function() {
+        window.location.href = "rama1.html";
+       
+        }, 6000);
        
       
        

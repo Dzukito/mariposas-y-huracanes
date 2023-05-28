@@ -1,0 +1,188 @@
+window.onload = function() {
+  var storyImage = document.getElementById("story-image");
+  var storyParagraph = document.getElementById("story-paragraph");
+  var changeStoryButton = document.getElementById("change-story-button");
+  var noSaltar = document.getElementById("noSaltar");
+  var audioPlayer = document.getElementById("audio-player");
+  var audioFiumba = document.getElementById("fiumba");
+    var audioLluvia = document.getElementById("lluvia");
+   var audioTos = document.getElementById("tos");
+  var audioArma = document.getElementById("arma");
+  var audioFuego = document.getElementById("fuego");
+  
+  // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
+  var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      storyImage.src = imageUrl;
+  
+    setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-12-5.gif";
+  storyImage.src = imageUrl;
+                            fadeIn(storyParagraph, story1);
+ changeStoryButton.style.display = "inline";                       
+                              
+  }, 2000);
+  
+  //---------------------------------Muerte
+  
+var audioContainerMuerte = document.getElementById("audioContainerMuerte");
+  
+  
+  //.........................................
+
+
+
+  // Definir la historia
+  var story1 = "Javier Deques se negó a saltar, era demasiado tímido y tosco para intentarlo. Sin embargo, sus amigos no lo dejarían escapar tan fácil. Al ver que se resistía, los jóvenes más grandes empujaron a Javier Deques al risco para que saltara como mejor pudiera. Desde ese día, una silla de ruedas lo acompañó.";
+  var story2 = "<p>A pesar del trágico evento que marcaría su vida, Marta Iridio permaneció a su lado como su mejor amiga, cuidando de él en ciertas ocasiones. Javier Deques sonreía cuando estaban juntos, pero no podía ocultar por dentro la rabia de no poder haberla conquistado. Pasó sus días solo y repleto de libros sobre fisica de partículas y el espacio, sus grandes pasiones en aquel entonces. </p><p>Fue en ese momento en que se le ocurrió la idea de crear una máquina. Un artefacto capaz de crear agujeros negros, <a href='https://s11.gifyu.com/images/MOSHED-2023-5-28-13-37-52.gif' style='color: #00FFFF;' target='_blank'>pero no cualquier agujero negro.</a> Javier Deques había teorizado sobre el hecho de poder viajar en el tiempo a través de un agujero de gusano además de transitar el espacio. Quizá, de construir esa máquina podría volver a aquella tarde del precipicio y probar suerte.</p> ";
+   var story3 =  "Diez años después lo consiguió en el laboratorio de la Academia de Fisica de Buenos Aires. Una noche que nadie estaba cerca rondando el establecimiento, encendió su aparato y el tiempo retrocedió para darle una segunda oportunidad.";
+ 
+  changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+  
+  
+    glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Avanzar tiempo -';
+    changeStoryButton.disabled = false;
+      }, 5000);
+      
+
+  
+
+  var clickCount = 0;
+  var glitchTimeout;
+
+  // Cambiar de historia al hacer clic en el botón
+  function changeStory() {
+    clickCount++;
+   
+    //----------------------------  L-------------------------------
+    if (clickCount === 1) {
+      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      storyImage.src = imageUrl;
+    
+      changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+    
+     setTimeout(function() { imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-6-7.gif";
+  storyImage.src = imageUrl;
+                            fadeIn(storyParagraph, story2);
+                            audioFuego.play();
+   
+                              
+  }, 2000);
+       
+    
+    glitchTimeout = setTimeout(function() {
+        changeStoryButton.classList.add("glitch-effect");
+          changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Avanzar -';
+    changeStoryButton.disabled = false;
+      }, 15000);
+      
+    }
+    //----------------------------LLEGA AL JURASICO-------------------------------------
+   else if (clickCount === 2) {
+     audioFiumba.play();
+     audioLluvia.play();
+    audioPlayer.pause();
+     
+       
+      setTimeout(function() {  
+       audioArma.play();
+                              
+  }, 6000);
+     
+      // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
+       changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     
+    storyParagraph.opacity=0;
+      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+  storyImage.src = imageUrl;
+     
+       setTimeout(function() { 
+         imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-21-47.gif";
+  storyImage.src = imageUrl;
+                              fadeIn(storyParagraph, story3);
+                              
+  }, 2000);
+     
+     changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+   
+    
+      setTimeout(function() {
+        changeStoryButton.style.backgroundColor = "";
+        changeStoryButton.style.display = "inline";
+        changeStoryButton.innerHTML = ">"; 
+        
+         changeStoryButton.style.border = ""; 
+        changeStoryButton.disabled = false;
+       
+        }, 5000);
+       
+    
+  }
+    //----------------------------------------------------------
+     else if (clickCount === 3) {
+       storyParagraph.opacity=0;
+      imageUrl = "https://s12.gifyu.com/images/MOSHED-2023-5-28-13-26-1.gif";
+  storyImage.src = imageUrl;
+       
+      // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
+    
+       
+      changeStoryButton.style.backgroundColor = "transparent";
+    changeStoryButton.style.border = "none"; 
+      changeStoryButton.innerHTML = ""; 
+     storyParagraph.style.opacity = 0;
+       changeStoryButton.disabled = true;
+     changeStoryButton.classList.remove("glitch-effect");
+       
+        
+   
+       
+      
+       
+     }
+    //----------------------------------------------------------------
+
+  else{}
+}
+
+
+  changeStoryButton.addEventListener("click", changeStory);
+   noSaltar.addEventListener("click", noSaltar);
+
+  // Función para animar el fade in
+  function fadeIn(element, text) {
+    element.style.opacity = 0;
+    element.innerHTML = text;
+
+    var opacity = 0;
+    var interval = setInterval(function() {
+      if (opacity < 1) {
+        opacity += 0.1;
+        element.style.opacity = opacity;
+      } else {
+        clearInterval(interval);
+      }
+    }, 100);
+  }
+
+  storyParagraph.style.fontFamily = "Arial, Montserrat";
+};

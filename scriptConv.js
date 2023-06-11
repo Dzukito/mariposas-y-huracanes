@@ -30,22 +30,24 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
 
 
 
+
   // Definir la historia
   var story1 = "Javier Deques nació un 5 de mayo de 2023. Apareció un día en la puerta del orfanato mientras llovía. Lo acogió una mujer arrugada de gran corazón. El niño creció allí toda su vida hasta cumplir 16.";
-  var story2 = "Su infancia se llenó de libros sobre el espacio y aventuras con otro niño al que le gustaban los perros. Su amistad nació luego de que Javier le salvara de la mordida de un labrador. Podría haber modificado un recuerdo feliz como ese, pero no lo hice. Valía mucho en su Vida. Tenía que buscar otra idea.";
-   var story3 =  "La Tierra. 70 millones de años atrás. Claramente no había nada de él allí, o quizá si. Por mucho que intentara modificar el pasado, nada parecía cambiar la útlima noche de Javier Deques en aquel San Martin tan lejano. Me rehusaba a pensar que una fuerza como el destino existiera. Estaba al tanto de aquella teoría. Del efecto mariposa.";
-  var story4 =  "Quizá y solo quizá, si modificaba el aleteo de algún insecto en un instante tan remoto del tiempo como lo era este podría salvarlo, provocando un huracán en Buenos Aires, no me importaba realmente. Ya estaba dispuesto a considerar el extremo de que volara todo para solo sacarme la impotencia y cambiar su vida.";
+  var story2 = "Su infancia se llenó de libros sobre el espacio y aventuras con otro niño al que le gustaban los perros. Su amistad nació luego de que Javier le salvara de la mordida de un caniche que le dejó una marca redonda en la cara. Podría haber modificado un recuerdo feliz como ese, pero no lo hice. Era especial en su Vida. Tenía que buscar otra idea.";
+   var story3 =  "La Tierra. 70 millones de años atrás. Claramente no había nada de él allí, o quizá sí. Por mucho que intentara modificar el pasado, nada parecía cambiar la última noche de Javier Deques en aquel San Martín tan lejano. Me rehusaba a pensar que una idea como el Destino existiera. Estaba al tanto de aquella teoría. Del efecto mariposa.";
+  var story4 =  "Quizá, si modificaba el aleteo de algún insecto en un instante tan remoto del tiempo como lo era este podría salvarlo, provocando un huracán en Buenos Aires, no me importaba realmente. Ya estaba dispuesto a considerar el extremo de que todo volara por los aires con tan solo sacarme la curiosidad y cambiar su vida.";
   var story5 = "Lo hubiera intentado, si alguien no me hubiese detenido. Reconocí el 911 grabado en su pecho antes verla a los ojos. Era una mujer encantadora. De cabello rubio que caía sobre su uniforme."
   var story6="Cuando llegué esa noche a la escena del crimen, tenía mis dudas. Pero era imposible no darse cuenta de quién era.";
   var story7="Estábamos de acuerdo con que no era una policía."
-  var story8="<p>- ¿Por qué todo esto entonces? – susurré entre el viento cálido del Jurásico. </p><p>- Quería ver hasta qué punto estabas dispuesto a llegar, de que cosas te emocionabas, de cuales te arrepentías. Es parte de mi trabajo, tengo que hacer el juicio y saber a cuál de los sitios enviarte.</p>"
- 
- var story9="<p>- ¿Y que viste?</p><p>  - Vi toda una Vida. Hice mi veredicto, fue interesante. Suelo hacer este experimento con todos, pero siempre me sorprendo y me convenzo de que algunas cosas no se pueden cambiar, son simplemente destino. El libro tiene ciertos capítulos inamovibles. Cada uno decide como leer el resto. Quería saber que sentías mientras lo repasabas."
-  var story10="<p>Su cara blanca era una belleza letal que solo yo podía presenciar en ese momento.</p><p>- ¿Es tiempo entonces?</p><p>- Lo es Javier Deques, fue un sinfín de historias interesantes sucediendo a la vez. Me demostraste quien eras desde los últimos minutos hasta los primeros, intentando cambiarlos o simplemente cuidando que no se muevan. Fue una sentencia sencilla.</p>"
+  var story8="<p>- ¿Por qué todo esto entonces? – susurré entre el viento cálido del Jurásico. </p><p>- Quería ver hasta qué punto estabas dispuesto a llegar, de que cosas te emocionabas, de cuales te arrepentías. Es parte de mi trabajo, tengo que hacer el juicio y saber a cuál de los dos sitios enviarte.</p>"
+ var story9="<p>- ¿Y que viste?</p><p> - Vi toda una Vida. Hice mi veredicto, fue interesante. Suelo hacer este experimento con todos, pero siempre me sorprendo y me convenzo de que algunas cosas no se pueden cambiar. Quería saber que sentías mientras lo repasabas."
+  var story10="<p>Su cara blanca era una belleza letal que solo yo podía presenciar en ese momento.</p><p>- ¿Es tiempo entonces?</p><p>- Lo es Javier Deques, fue un sinfín de historias sucediendo a la vez. Me demostraste quien eras desde los últimos minutos hasta los primeros, intentando cambiarlos o simplemente cuidando que no se muevan. Fue una sentencia sencilla.</p>"
   var story11= "<p>Me senté a reflexionar mientras lo entendía.</p><p>-	Se siente frágil y complejo verlo de ese modo. La Vida, quiero decir, siempre fue una cadena de mariposas y huracanes entrelazándose.</p>"
-   var story12= "<p>Sin guadañas ni vestidos negros, sonrió gentilmente con un gesto compasivo y tomó mi mano.</p><p>-	La Vida. Fragil y bella como las mariposas, feroz e abrupta como los huracanes – susurró en mi oído, y como ella solía hacerlo, acomodó el tiempo, apago las luces, y cuando estuve listo, San Martin desapareció.</p>"
+   var story12= "<p>Sin guadañas ni vestidos negros, sonrió gentilmente y tomó mi mano.</p><p>-	La Vida, fragil y bella como las mariposas, feroz y abrupta como los huracanes – susurró en mi oído, y como ella solía hacerlo, acomodó el tiempo, apago las luces, y cuando estuve listo, San Martin desapareció.</p>"
    var story13=""
 
+  
+  
   
   
  

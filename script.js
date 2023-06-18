@@ -47,7 +47,7 @@ window.onload = function() {
        audioLluvia.loop=true;
        audioPlayer.play();
        audioLluvia.play();
-       imageUrl = "https://s11.gifyu.com/images/oie_D7cGMC0iEDTl-1.gif";
+       imageUrl = "ciudad_lluvia.gif";
        storyImage.src = imageUrl;
        storyImage.style.width = "50%";
        storyImage.style.height = "50%";

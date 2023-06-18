@@ -11,7 +11,7 @@ window.onload = function() {
   var audioFuego = document.getElementById("fuego");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
-  var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+  var imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
   
     setTimeout(function() { imageUrl="cuna_javier.gif";
@@ -64,7 +64,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
    
     //----------------------------  L-------------------------------
     if (clickCount === 1) {
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";
@@ -110,7 +110,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      
     storyParagraph.opacity=0;
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
      
        setTimeout(function() { 

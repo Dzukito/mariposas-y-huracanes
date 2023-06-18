@@ -14,7 +14,7 @@ window.onload = function() {
   var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
       storyImage.src = imageUrl;
   
-    setTimeout(function() { imageUrl="https://s12.gifyu.com/images/mcuna.gif";
+    setTimeout(function() { imageUrl="cuna_javier.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story1);
  changeStoryButton.style.display = "inline";                       
@@ -74,7 +74,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-26-18-20-49.gif";
+     setTimeout(function() { imageUrl="nenes_javierXtimoti.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
                             audioFuego.play();
@@ -114,7 +114,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
   storyImage.src = imageUrl;
      
        setTimeout(function() { 
-         imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-26-18-25-45.gif";
+         imageUrl="jurasico.gif";
   storyImage.src = imageUrl;
                               fadeIn(storyParagraph, story3);
                               
@@ -455,35 +455,35 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      changeStoryButton.classList.remove("glitch-effect");
        
         setTimeout(function() { 
-      imageUrl = "https://s11.gifyu.com/images/MOSHED-2023-5-26-18-20-49.gif";
+      imageUrl = "nenes_javierXtimoti.gif";
       storyImage.src = imageUrl;
   }, 11000);
          setTimeout(function() { 
-      imageUrl = "https://s12.gifyu.com/images/mcuna.gif";
+      imageUrl = "cuna_javier.gif";
       storyImage.src = imageUrl;
   }, 14000);
          setTimeout(function() { 
-      imageUrl = "https://s12.gifyu.com/images/MOSHED-2023-5-26-16-56-0.gif";
+      imageUrl = "playa_javier.gif";
       storyImage.src = imageUrl;
   }, 17000);
          setTimeout(function() { 
-      imageUrl = "https://s11.gifyu.com/images/fuegooo.gif";
+      imageUrl = "laboratorio_llamas.gif";
       storyImage.src = imageUrl;
   }, 20000);
          setTimeout(function() { 
-      imageUrl = "https://s11.gifyu.com/images/MOSHED-2023-5-22-20-42-35.gif";
+      imageUrl = "laboratorio_pesado_fallido.gif";
       storyImage.src = imageUrl;
   }, 23000);
          setTimeout(function() { 
-      imageUrl = "https://s12.gifyu.com/images/Escena3.gif";
+      imageUrl = "vagabundo_deques.gif";
       storyImage.src = imageUrl;
   }, 25000);
          setTimeout(function() { 
-      imageUrl = "https://s11.gifyu.com/images/Escena2.gif";
+      imageUrl = "atraco_deques.gif";
       storyImage.src = imageUrl;
   }, 28000);
         setTimeout(function() { 
-      imageUrl = "https://s12.gifyu.com/images/Escena1.gif";
+      imageUrl = "cuerpo_deques.gif";
       storyImage.src = imageUrl;
   }, 31000);
        

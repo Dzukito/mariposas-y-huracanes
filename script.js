@@ -75,7 +75,7 @@ window.onload = function() {
       
       storyImage.style.width = "100%";
        storyImage.style.height = "auto";
-       imageUrl = "https://s12.gifyu.com/images/Escena1.gif";
+       imageUrl = "cuerpo_deques.gif";
        storyImage.src = imageUrl;
        fadeIn(storyParagraph, story2);
       // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
@@ -115,7 +115,7 @@ window.onload = function() {
       imageUrl = "https://s12.gifyu.com/images/puopu.gif";
   storyImage.src = imageUrl;
      
-       setTimeout(function() { imageUrl="https://s11.gifyu.com/images/Escena2.gif";
+       setTimeout(function() { imageUrl="atraco_deques.gif";
   storyImage.src = imageUrl;
                               fadeIn(storyParagraph, story3);
                               
@@ -148,7 +148,7 @@ window.onload = function() {
                               
   }, 5000);
      
-       setTimeout(function() { imageUrl="https://s12.gifyu.com/images/Escena3.gif";
+       setTimeout(function() { imageUrl="vagabundo_deques.gif";
   storyImage.src = imageUrl;
    fadeIn(storyParagraph, story4);
                               
@@ -181,7 +181,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s12.gifyu.com/images/Escena3.gif";
+     setTimeout(function() { imageUrl="vagabundo_deques.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story5);
    
@@ -214,7 +214,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/Escena2.gif";
+     setTimeout(function() { imageUrl="atraco_deques.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story6);
    
@@ -242,7 +242,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-22-20-42-35.gif";
+     setTimeout(function() { imageUrl="laboratorio_pesado_fallido.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story7);
    
@@ -276,7 +276,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/fuegooo.gif";
+     setTimeout(function() { imageUrl="laboratorio_llamas.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story8);
                             audioFuego.play();
@@ -305,7 +305,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-26-16-56-0.gif";
+     setTimeout(function() { imageUrl="playa_deques.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story9);
    

@@ -14,7 +14,7 @@ window.onload = function() {
   var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
       storyImage.src = imageUrl;
   
-    setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-12-5.gif";
+    setTimeout(function() { imageUrl="playa_precipicio.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story1);
  changeStoryButton.style.display = "inline";                       
@@ -73,7 +73,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-6-7.gif";
+     setTimeout(function() { imageUrl="marta_javier_silladeruedas.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
                             audioFuego.play();
@@ -113,7 +113,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
   storyImage.src = imageUrl;
      
        setTimeout(function() { 
-         imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-21-47.gif";
+         imageUrl="labo_sillaruedas_exito.gif";
   storyImage.src = imageUrl;
                               fadeIn(storyParagraph, story3);
                               
@@ -142,7 +142,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     //----------------------------------------------------------
      else if (clickCount === 3) {
        storyParagraph.opacity=0;
-      imageUrl = "https://s12.gifyu.com/images/MOSHED-2023-5-28-13-26-1.gif";
+      imageUrl = "agujero negro.gif";
   storyImage.src = imageUrl;
        
       // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 

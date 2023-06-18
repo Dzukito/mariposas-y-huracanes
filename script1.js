@@ -63,7 +63,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
    
     //----------------------------  L-------------------------------
     if (clickCount === 1) {
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";
@@ -109,7 +109,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      
     storyParagraph.opacity=0;
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
      
        setTimeout(function() { 
@@ -140,7 +140,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        storyParagraph.opacity=0;
          
     
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
      
        setTimeout(function() { 

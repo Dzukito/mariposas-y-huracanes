@@ -39,6 +39,7 @@ window.onload = function() {
 
   // Cambiar de historia al hacer clic en el botón
   function changeStory() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     clickCount++;
     //------------------------------------------------------------
      if (clickCount === 1) {

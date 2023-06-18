@@ -14,7 +14,7 @@ window.onload = function() {
   var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
       storyImage.src = imageUrl;
   
-    setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-12-5.gif";
+    setTimeout(function() { imageUrl="playa_precipicio.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story1);
  changeStoryButton.style.display = "inline";                       
@@ -73,7 +73,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
     
-     setTimeout(function() { imageUrl="https://s11.gifyu.com/images/MOSHED-2023-5-28-13-50-6.gif";
+     setTimeout(function() { imageUrl="martaXjavier_feliz.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
                             audioFuego.play();
@@ -113,7 +113,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
   storyImage.src = imageUrl;
      
        setTimeout(function() { 
-         imageUrl="https://s12.gifyu.com/images/MOSHED-2023-5-28-13-53-49.gif";
+         imageUrl="marta_llamas.gif";
   storyImage.src = imageUrl;
                               fadeIn(storyParagraph, story3);
                               
@@ -144,7 +144,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
   storyImage.src = imageUrl;
      
        setTimeout(function() { 
-         imageUrl="https://s12.gifyu.com/images/MartaVaga.gif";
+         imageUrl="marta_calle.gif";
   storyImage.src = imageUrl;
                               fadeIn(storyParagraph, story4);
                               

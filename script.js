@@ -112,7 +112,7 @@ window.onload = function() {
        changeStoryButton.disabled = true;
      
     storyParagraph.opacity=0;
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
      
        setTimeout(function() { imageUrl="atraco_deques.gif";
@@ -134,7 +134,7 @@ window.onload = function() {
         audioFiumba.play()
         audioLluvia.play();
       
-      imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
        
       changeStoryButton.style.backgroundColor = "transparent";
@@ -171,7 +171,7 @@ window.onload = function() {
   else if (clickCount === 5) {
     fiumba.play();
      audioLluvia.play();
-     imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+     imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";
@@ -204,7 +204,7 @@ window.onload = function() {
       //----------------------------------------------------------------
   else if (clickCount === 6) {
     audioFiumba.play();
-     imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+     imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";
@@ -232,7 +232,7 @@ window.onload = function() {
   }
        //----------------------------------------------------------------
   else if (clickCount === 7) {
-     imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+     imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";
@@ -264,7 +264,7 @@ window.onload = function() {
   }
        //----------------------------------------------------------------
   else if (clickCount === 8) {
-     imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+     imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
     
@@ -295,7 +295,7 @@ window.onload = function() {
   }
     //--------------------------------------------------
      else if (clickCount === 9) {
-     imageUrl = "https://s12.gifyu.com/images/puopu.gif";
+     imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
       changeStoryButton.style.backgroundColor = "transparent";

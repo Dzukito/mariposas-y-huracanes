@@ -59,6 +59,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
 
   // Cambiar de historia al hacer clic en el botón
   function changeStory() {
+    window.scrollTo({ top: 0, behavior: "smooth" });
     clickCount++;
    
     //----------------------------  L-------------------------------

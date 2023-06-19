@@ -11,7 +11,7 @@ window.onload = function() {
   var audioFuego = document.getElementById("fuego");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
-  var imageUrl = "https://s12.gifyu.com/images/PORTADA.gif";
+  var imageUrl = "mariposa.gif";
   storyImage.src = imageUrl;
   
   setTimeout(function() {

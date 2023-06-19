@@ -463,7 +463,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
       storyImage.src = imageUrl;
   }, 14000);
          setTimeout(function() { 
-      imageUrl = "playa_javier.gif";
+      imageUrl = "playa_precipicio.gif";
       storyImage.src = imageUrl;
   }, 17000);
          setTimeout(function() { 

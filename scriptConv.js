@@ -25,8 +25,8 @@ window.onload = function() {
   
 var audioContainerMuerte = document.getElementById("audioContainerMuerte");
 var audioContainerMuerte2 = document.getElementById("audioContainerMuerte2");
-  
-  
+audioContainerMuerte.style.display = "none"; 
+audioContainerMuerte2.style.display = "none"; 
   //.........................................
 
 

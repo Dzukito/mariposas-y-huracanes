@@ -61,7 +61,7 @@ window.onload = function() {
       setTimeout(function() {
         changeStoryButton.style.backgroundColor = "";
         changeStoryButton.style.display = "inline";
-        changeStoryButton.innerHTML = "Acercarse a la policia"; 
+        changeStoryButton.innerHTML = "Acercarse a la policía"; 
          changeStoryButton.style.border = ""; 
         changeStoryButton.disabled = false;
        

@@ -24,6 +24,7 @@ window.onload = function() {
   //---------------------------------Muerte
   
 var audioContainerMuerte = document.getElementById("audioContainerMuerte");
+var audioContainerMuerte2 = document.getElementById("audioContainerMuerte2");
   
   
   //.........................................
@@ -215,7 +216,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
   else if (clickCount === 5) {
     audioFiumba.play()
         audioLluvia.play();
-      audioContainerMuerte.style.display = "none"; 
+      audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story6);  
  
        
@@ -232,7 +233,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
          
-     setTimeout(function() { audioContainerMuerte.style.display = "block";   
+     setTimeout(function() { audioContainerMuerte2.style.display = "block";   
                               
   }, 3000);
     setTimeout(function() { 
@@ -261,7 +262,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      
      audioFiumba.play()
         audioLluvia.play();
-      audioContainerMuerte.style.display = "none"; 
+      audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story7);  
  
   
@@ -298,7 +299,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
    
      audioFiumba.play()
         audioLluvia.play();
-      audioContainerMuerte.style.display = "none"; 
+      audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story8);  
  
   
@@ -334,7 +335,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     
      audioFiumba.play()
         audioLluvia.play();
-      audioContainerMuerte.style.display = "none"; 
+      audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story9);  
  
   

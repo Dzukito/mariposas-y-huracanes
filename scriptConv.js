@@ -25,8 +25,7 @@ window.onload = function() {
   
 var audioContainerMuerte = document.getElementById("audioContainerMuerte");
 var audioContainerMuerte2 = document.getElementById("audioContainerMuerte2");
-audioContainerMuerte.style.display = "none"; 
-audioContainerMuerte2.style.display = "none"; 
+
   //.........................................
 
 
@@ -78,7 +77,7 @@ audioContainerMuerte2.style.display = "none";
      setTimeout(function() { imageUrl="nenes_javierXtimoti.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
-                            audioFuego.play();
+                        
    
                               
   }, 2000);
@@ -94,13 +93,11 @@ audioContainerMuerte2.style.display = "none";
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
      audioFiumba.play();
-     audioLluvia.play();
-    audioPlayer.pause();
+   
      
        
       setTimeout(function() {  
-       audioArma.play();
-                              
+        
   }, 6000);
      
       // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
@@ -232,7 +229,7 @@ audioContainerMuerte2.style.display = "none";
      storyParagraph.style.opacity = 0;
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
-         
+         audioContainerMuerte.style.display = "none"; 
      setTimeout(function() { audioContainerMuerte2.style.display = "block";   
                               
   }, 3000);

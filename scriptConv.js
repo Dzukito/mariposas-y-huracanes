@@ -65,6 +65,7 @@ audioContainerMuerte2.style.display = "none";
    
     //----------------------------  L-------------------------------
     if (clickCount === 1) {
+      audioFiumba.play();
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
@@ -141,8 +142,7 @@ audioContainerMuerte2.style.display = "none";
   }
     //----------------------------------------------------------
      else if (clickCount === 3) {
-        audioFiumba.play()
-        audioLluvia.play();
+        
       
       
       setTimeout(function() {  
@@ -176,8 +176,7 @@ audioContainerMuerte2.style.display = "none";
      }
     //----------------------------------------------------------------
   else if (clickCount === 4) {
-   audioFiumba.play()
-        audioLluvia.play();
+   
       
  
        
@@ -212,8 +211,7 @@ audioContainerMuerte2.style.display = "none";
   }
       //----------------------------------------------------------------
   else if (clickCount === 5) {
-    audioFiumba.play()
-        audioLluvia.play();
+
       audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story6);  
  
@@ -257,9 +255,7 @@ audioContainerMuerte2.style.display = "none";
   }
        //----------------------------------------------------------------
   else if (clickCount === 6) {
-     
-     audioFiumba.play()
-        audioLluvia.play();
+ 
       audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story7);  
  
@@ -294,9 +290,7 @@ audioContainerMuerte2.style.display = "none";
   }
        //----------------------------------------------------------------
   else if (clickCount === 7) {
-   
-     audioFiumba.play()
-        audioLluvia.play();
+  
       audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story8);  
  
@@ -330,9 +324,7 @@ audioContainerMuerte2.style.display = "none";
   }
     //--------------------------------------------------
      else if (clickCount === 8) {
-    
-     audioFiumba.play()
-        audioLluvia.play();
+   
       audioContainerMuerte2.style.display = "none"; 
     fadeIn(storyParagraph, story9);  
  
@@ -366,9 +358,7 @@ audioContainerMuerte2.style.display = "none";
   }
     //--------------------------------------------------
      else if (clickCount === 9) {
-    
-     audioFiumba.play()
-        audioLluvia.play();
+  
       audioContainerMuerte.style.display = "none"; 
     fadeIn(storyParagraph, story10);  
  
@@ -403,8 +393,7 @@ audioContainerMuerte2.style.display = "none";
     //--------------------------------------------------
      else if (clickCount === 10) {
     
-     audioFiumba.play()
-        audioLluvia.play();
+
       audioContainerMuerte.style.display = "none"; 
     fadeIn(storyParagraph, story11);  
  
@@ -438,9 +427,7 @@ audioContainerMuerte2.style.display = "none";
   }
     //--------------------------------------------------
      else if (clickCount === 11) {
-    
-     audioFiumba.play()
-        audioLluvia.play();
+
       audioContainerMuerte.style.display = "none"; 
     fadeIn(storyParagraph, story12);  
  
@@ -507,8 +494,7 @@ audioContainerMuerte2.style.display = "none";
     
   } else if (clickCount === 12) {
     
-     audioFiumba.play()
-        audioLluvia.play();
+    
       audioContainerMuerte.style.display = "none"; 
    
  

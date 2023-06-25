@@ -144,12 +144,6 @@ audioContainerMuerte2.style.display = "none";
      else if (clickCount === 3) {
         
       
-      
-      setTimeout(function() {  
-       
-       audioTos.play();
-                              
-  }, 5000);
      
     fadeIn(storyParagraph, story4);
        

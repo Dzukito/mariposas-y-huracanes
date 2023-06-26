@@ -6,8 +6,8 @@ window.onload = function() {
   var audioPlayer = document.getElementById("audio-player");
   var audioFiumba = document.getElementById("fiumba");
     var audioLluvia = document.getElementById("lluvia");
-   var audioTos = document.getElementById("tos");
-  var audioArma = document.getElementById("arma");
+   var audioBebe = document.getElementById("bebe");
+  var audioJunga = document.getElementById("jungla");
   var audioFuego = document.getElementById("fuego");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
@@ -49,6 +49,10 @@ audioContainerMuerte2.style.display = "none";
 
   
   
+  audioLluvia.play();
+  audioLluvia.loop=true;
+  audioBebe.play();
+  audioBebe.loop=true;
   
   
  
@@ -65,6 +69,8 @@ audioContainerMuerte2.style.display = "none";
    
     //----------------------------  L-------------------------------
     if (clickCount === 1) {
+      audioBebe.stop();
+      audioLluvia.stop();
       audioFiumba.play();
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
@@ -95,8 +101,8 @@ audioContainerMuerte2.style.display = "none";
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
      audioFiumba.play();
-   
-     
+     audioJungla.play();
+     audioJungla.loop=true;
        
       setTimeout(function() {  
         

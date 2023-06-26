@@ -51,6 +51,7 @@ audioContainerMuerte2.style.display = "none";
   
   audioLluvia.play();
   audioLluvia.loop=true;
+  audioBebe.volume = 0.4;
   audioBebe.play();
   audioBebe.loop=true;
   
@@ -101,7 +102,8 @@ audioContainerMuerte2.style.display = "none";
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
      audioFiumba.play();
-     audioJungla.play();
+      audioJungla.volume = 0.4;
+      audioJungla.play();
      audioJungla.loop=true;
        
       setTimeout(function() {  
@@ -148,8 +150,7 @@ audioContainerMuerte2.style.display = "none";
   }
     //----------------------------------------------------------
      else if (clickCount === 3) {
-        
-      
+       
      
     fadeIn(storyParagraph, story4);
        

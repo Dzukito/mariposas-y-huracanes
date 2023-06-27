@@ -44,7 +44,7 @@ audioContainerMuerte2.style.display = "none";
  var story9="<p>- ¿Y que viste?</p><p> - Vi toda una Vida. Hice mi veredicto, fue interesante. Suelo hacer este experimento con todos, pero siempre me sorprendo y me convenzo de que algunas cosas no se pueden cambiar. Quería saber que sentías mientras lo repasabas."
   var story10="<p>Su cara blanca era una belleza letal que solo yo podía presenciar en ese momento.</p><p>- ¿Es tiempo entonces?</p><p>- Lo es Javier Deques, fue un sinfín de historias sucediendo a la vez. Me demostraste quien eras desde los últimos minutos hasta los primeros, intentando cambiarlos o simplemente cuidando que no se muevan. Fue una sentencia sencilla.</p>"
   var story11= "<p>Me senté a reflexionar mientras lo entendía.</p><p>-	Se siente frágil y complejo verlo de ese modo. La Vida, quiero decir, siempre fue una cadena de mariposas y huracanes entrelazándose.</p>"
-   var story12= "<p>Sin guadañas ni vestidos negros, sonrió gentilmente y tomó mi mano.</p><p>-	La Vida, fragil y bella como las mariposas, feroz y abrupta como los huracanes – susurró en mi oído, y como ella solía hacerlo, acomodó el tiempo, apago las luces, y cuando estuve listo, San Martin desapareció.</p>"
+   var story12= "<p>Sin guadañas ni vestidos negros, sonrió gentilmente y tomó mi mano.</p><p>-	La Vida, fragil y bella como las mariposas, feroz y abrupta como los huracanes – susurró en mi oído, y como ella solía hacerlo, acomodó el tiempo, apagó las luces, y cuando estuve listo, San Martin desapareció.</p>"
    var story13=""
 
   

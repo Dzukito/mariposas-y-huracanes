@@ -94,9 +94,9 @@ audioContainerMuerte2.style.display = "none";
                               
   }, 2000);
       setTimeout(function() {    
-        audioNenes.volume = 0.06;
+        audioNenes.volume = 0.2;
       audioNenes.play(); 
-  }, 3000);
+  }, 4500);
       
     
     glitchTimeout = setTimeout(function() {
@@ -109,7 +109,7 @@ audioContainerMuerte2.style.display = "none";
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
      audioFiumba.play();
-      audioJungla.volume = 0.1;
+      audioJungla.volume = 0.2;
       audioJungla.play();
      audioJungla.loop= true;
        

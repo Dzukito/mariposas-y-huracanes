@@ -51,7 +51,7 @@ audioContainerMuerte2.style.display = "none";
   
   audioLluvia.play();
   audioLluvia.loop=true;
-  audioBebe.volume = 0.4;
+  audioBebe.volume = 0.3;
   audioBebe.play();
   audioBebe.loop=true;
   
@@ -70,8 +70,8 @@ audioContainerMuerte2.style.display = "none";
    
     //----------------------------  L-------------------------------
     if (clickCount === 1) {
-      audioBebe.stop();
-      audioLluvia.stop();
+      audioBebe.pause();
+      audioLluvia.pause();
       audioFiumba.play();
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;

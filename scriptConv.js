@@ -7,7 +7,7 @@ window.onload = function() {
   var audioFiumba = document.getElementById("fiumba");
     var audioLluvia = document.getElementById("lluvia");
    var audioBebe = document.getElementById("bebe");
-  var audioJunga = document.getElementById("jungla");
+  var audioJungla = document.getElementById("jungla");
   var audioNenes = document.getElementById("nenes");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
@@ -94,7 +94,7 @@ audioContainerMuerte2.style.display = "none";
                               
   }, 2000);
       setTimeout(function() {    
-        audioNenes.volume = 0.05;
+        audioNenes.volume = 0.03;
       audioNenes.play(); 
   }, 3000);
       

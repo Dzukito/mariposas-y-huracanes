@@ -8,7 +8,7 @@ window.onload = function() {
     var audioLluvia = document.getElementById("lluvia");
    var audioBebe = document.getElementById("bebe");
   var audioJunga = document.getElementById("jungla");
-  var audioFuego = document.getElementById("fuego");
+  var audioNenes = document.getElementById("nenes");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
   var imageUrl = "viaje_tiempo.gif";
@@ -51,7 +51,7 @@ audioContainerMuerte2.style.display = "none";
   
   audioLluvia.play();
   audioLluvia.loop=true;
-  audioBebe.volume = 0.3;
+  audioBebe.volume = 0.1;
   audioBebe.play();
   audioBebe.loop=true;
   
@@ -86,6 +86,9 @@ audioContainerMuerte2.style.display = "none";
      setTimeout(function() { imageUrl="nenes_javierXtimoti.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
+                            audioNenes.play();
+
+  
                         
    
                               

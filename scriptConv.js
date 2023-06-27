@@ -51,7 +51,7 @@ audioContainerMuerte2.style.display = "none";
   
   audioLluvia.play();
   audioLluvia.loop=true;
-  audioBebe.volume = 0.1;
+  audioBebe.volume = 0.05;
   audioBebe.play();
   audioBebe.loop=true;
   
@@ -86,14 +86,18 @@ audioContainerMuerte2.style.display = "none";
      setTimeout(function() { imageUrl="nenes_javierXtimoti.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
-                            audioNenes.play();
+                            
 
   
                         
    
                               
   }, 2000);
-       
+      setTimeout(function() {    
+        audioNenes.volume = 0.05;
+      audioNenes.play(); 
+  }, 3000);
+      
     
     glitchTimeout = setTimeout(function() {
         changeStoryButton.classList.add("glitch-effect");
@@ -105,9 +109,9 @@ audioContainerMuerte2.style.display = "none";
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
      audioFiumba.play();
-      audioJungla.volume = 0.4;
+      audioJungla.volume = 0.05;
       audioJungla.play();
-     audioJungla.loop=true;
+     audioJungla.loop= true;
        
       setTimeout(function() {  
         

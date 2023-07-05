@@ -68,6 +68,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
       storyImage.src = imageUrl;
     audioPlaya.pause();
       audioCafe.play();
+      audioFuego.pause()
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 
@@ -89,7 +90,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
           changeStoryButton.innerHTML = '<img src="https://s12.gifyu.com/images/giphyf0a4ae514c0495ce.gif" alt="Botón GIF" style="width: 70px; height: 70px;" /><p></p> - Avanzar más -';
     changeStoryButton.disabled = false;
       }, 15000);
-      
+      audioFuego.pause()
     }
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {

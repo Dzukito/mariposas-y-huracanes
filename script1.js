@@ -67,6 +67,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     audioPlaya.pause();
+      audioCafe.play();
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 
@@ -92,7 +93,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     }
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
-     audioCafe.play();
+     audioCafe.pause();
+     audioFuego.play();
      
      
        
@@ -139,7 +141,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      else if (clickCount === 3) {
        storyParagraph.opacity=0;
          audioCafe.pause();
-    audioFuego.play();
+    audioFuego.pause();
+       audioLluvia.play();
     
       imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
@@ -172,8 +175,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     //----------------------------------------------------------------
  //----------------------------------------------------------
      else if (clickCount === 4) {
-        audioFuego.pause();
-        audioLluvia.play();
+        
+      
        storyParagraph.opacity=0;
        window.location.href = "convergencia.html";
       

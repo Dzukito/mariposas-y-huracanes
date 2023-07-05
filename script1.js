@@ -79,7 +79,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      setTimeout(function() { imageUrl="martaXjavier_feliz.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
-                            audioFuego.play();
+                            
    
                               
   }, 2000);

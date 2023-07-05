@@ -3,12 +3,12 @@ window.onload = function() {
   var storyParagraph = document.getElementById("story-paragraph");
   var changeStoryButton = document.getElementById("change-story-button");
   var noSaltar = document.getElementById("noSaltar");
-  var audioPlayer = document.getElementById("audio-player");
+  var audioFuego = document.getElementById("fuego");
   var audioFiumba = document.getElementById("fiumba");
     var audioLluvia = document.getElementById("lluvia");
-   var audioTos = document.getElementById("tos");
-  var audioArma = document.getElementById("arma");
-  var audioFuego = document.getElementById("fuego");
+   var audioPlaya = document.getElementById("playa");
+  var audioCafe = document.getElementById("cafe");
+
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
   var imageUrl = "https://s12.gifyu.com/images/puopu.gif";
@@ -43,6 +43,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
        changeStoryButton.disabled = true;
      changeStoryButton.classList.remove("glitch-effect");
   
+    audioPlaya.play();
   
     glitchTimeout = setTimeout(function() {
         changeStoryButton.classList.add("glitch-effect");
@@ -65,7 +66,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     if (clickCount === 1) {
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
-    
+    audioPlaya.pause();
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 
@@ -91,9 +92,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     }
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
-     audioFiumba.play();
-     audioLluvia.play();
-    audioPlayer.pause();
+     audioCafe.play();
+     
      
        
       setTimeout(function() {  
@@ -138,7 +138,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     //----------------------------------------------------------
      else if (clickCount === 3) {
        storyParagraph.opacity=0;
-         
+         audioCafe.pause();
+    audioFuego.play();
     
       imageUrl = "viaje_tiempo.gif";
   storyImage.src = imageUrl;
@@ -171,6 +172,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     //----------------------------------------------------------------
  //----------------------------------------------------------
      else if (clickCount === 4) {
+        audioFuego.pause();
+        audioLluvia.play();
        storyParagraph.opacity=0;
        window.location.href = "convergencia.html";
       

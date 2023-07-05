@@ -3,12 +3,12 @@ window.onload = function() {
   var storyParagraph = document.getElementById("story-paragraph");
   var changeStoryButton = document.getElementById("change-story-button");
   var noSaltar = document.getElementById("noSaltar");
-  var audioPlayer = document.getElementById("audio-player");
+  var audioPlaya = document.getElementById("playa");
   var audioFiumba = document.getElementById("fiumba");
-    var audioLluvia = document.getElementById("lluvia");
-   var audioTos = document.getElementById("tos");
-  var audioArma = document.getElementById("arma");
-  var audioFuego = document.getElementById("fuego");
+    var audioHospital = document.getElementById("hospital");
+   var audioLabo2 = document.getElementById("labo2");
+  var audioBlackHole = document.getElementById("blackHole");
+  
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
   var imageUrl = "viaje_tiempo.gif";
@@ -23,8 +23,8 @@ window.onload = function() {
   
   //---------------------------------Muerte
   
-var audioContainerMuerte = document.getElementById("audioContainerMuerte");
-  
+
+  audioPlaya.play()
   
   //.........................................
 
@@ -65,7 +65,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     if (clickCount === 1) {
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
-    
+      audioPlaya.pause()
+      audioHospital.play()
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 
@@ -76,7 +77,7 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
      setTimeout(function() { imageUrl="marta_javier_silladeruedas.gif";
   storyImage.src = imageUrl;
                             fadeIn(storyParagraph, story2);
-                            audioFuego.play();
+                            
    
                               
   }, 2000);
@@ -91,9 +92,9 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     }
     //----------------------------LLEGA AL JURASICO-------------------------------------
    else if (clickCount === 2) {
-     audioFiumba.play();
-     audioLluvia.play();
-    audioPlayer.pause();
+     audioHospital.pause();
+     audioLabo2.play();
+  
      
        
       setTimeout(function() {  
@@ -142,6 +143,8 @@ var audioContainerMuerte = document.getElementById("audioContainerMuerte");
     //----------------------------------------------------------
      else if (clickCount === 3) {
        storyParagraph.opacity=0;
+       audioLabo2.pause()
+       audioBlackHole.play()
       imageUrl = "agujero negro.gif";
   storyImage.src = imageUrl;
        

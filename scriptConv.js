@@ -492,7 +492,7 @@ audioContainerMuerte2.style.display = "none";
         
         changeStoryButton.style.backgroundColor = "";
     changeStoryButton.style.border = ""; 
-      changeStoryButton.innerHTML = "x"; 
+      changeStoryButton.innerHTML = "Fin"; 
      storyParagraph.style.opacity = 1;
        changeStoryButton.disabled = false;
      changeStoryButton.classList.remove("glitch-effect");
@@ -504,7 +504,7 @@ audioContainerMuerte2.style.display = "none";
     
   } else if (clickCount === 12) {
     
-    
+    audioLluvia.pause()
       audioContainerMuerte.style.display = "none"; 
    
  

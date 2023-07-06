@@ -72,7 +72,7 @@ audioContainerMuerte2.style.display = "none";
     if (clickCount === 1) {
       audioBebe.pause();
       audioLluvia.pause();
-      audioFiumba.play();
+      
       imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     
@@ -467,6 +467,7 @@ audioContainerMuerte2.style.display = "none";
          setTimeout(function() { 
       imageUrl = "laboratorio_pesado_fallido.gif";
       storyImage.src = imageUrl;
+           audioLluvia.play()
   }, 23000);
          setTimeout(function() { 
       imageUrl = "vagabundo_deques.gif";
@@ -475,6 +476,7 @@ audioContainerMuerte2.style.display = "none";
          setTimeout(function() { 
       imageUrl = "atraco_deques.gif";
       storyImage.src = imageUrl;
+           audioJungla.pause()
   }, 28000);
         setTimeout(function() { 
       imageUrl = "cuerpo_deques.gif";

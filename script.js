@@ -9,6 +9,8 @@ window.onload = function() {
    var audioTos = document.getElementById("tos");
   var audioArma = document.getElementById("arma");
   var audioFuego = document.getElementById("fuego");
+  var audioPlaya= document.getElementById("playa");
+  var audioLabo1 = document.getElementById("labo1");
   
   // Obtener imagen de una URL "https://s12.gifyu.com/images/Escena1.gif
   var imageUrl = "mariposa.gif";
@@ -234,7 +236,8 @@ window.onload = function() {
   else if (clickCount === 7) {
      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
-    
+    audioLluvia.pause();
+    audioLabo1.play();
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 
@@ -297,7 +300,8 @@ window.onload = function() {
      else if (clickCount === 9) {
      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
-    
+    audioFuego.pause();
+       audioPlaya.play();
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 
       changeStoryButton.innerHTML = ""; 

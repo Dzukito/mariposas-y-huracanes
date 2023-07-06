@@ -504,7 +504,7 @@ audioContainerMuerte2.style.display = "none";
     
   } else if (clickCount === 12) {
     
-    audioLluvia.pause()
+   
       audioContainerMuerte.style.display = "none"; 
    
  

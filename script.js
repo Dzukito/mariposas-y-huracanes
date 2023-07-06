@@ -301,6 +301,7 @@ window.onload = function() {
      imageUrl = "viaje_tiempo.gif";
       storyImage.src = imageUrl;
     audioFuego.pause();
+       audioLabo1.pause();
        audioPlaya.play();
       changeStoryButton.style.backgroundColor = "transparent";
     changeStoryButton.style.border = "none"; 

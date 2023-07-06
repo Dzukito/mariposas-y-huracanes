@@ -496,7 +496,7 @@ audioContainerMuerte2.style.display = "none";
      storyParagraph.style.opacity = 1;
        changeStoryButton.disabled = false;
      changeStoryButton.classList.remove("glitch-effect");
-  }, 34000);
+  }, 37000);
    
     
       // Aplicar efecto de glitch a la imagen del botón después de 10 segundos 
